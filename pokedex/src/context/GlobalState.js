@@ -1,7 +1,10 @@
 import { GlobalContext } from "./GlobalContext";
+import { useState, useEffect } from "react";
+import axios from "axios";
+import PokemonCard from "../components/PokemonCards";
 
 
-const GlobalState = () => {
+const GlobalState = (props) => {
     const [pokemons, setPokemons] = useState([])
     const [pokedex, setPokedex] = useState([])
     const [activeModal, setActiveModal] = useState(1)

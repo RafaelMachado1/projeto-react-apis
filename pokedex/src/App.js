@@ -1,11 +1,19 @@
+import { ChakraProvider } from "@chakra-ui/react";
 import Router from "./Router/Router";
+import  GlobalState  from "./context/GlobalState"
 
 
 function App() {
   return (
+
     <>
-      <Router />
+    <GlobalState>
+      <ChakraProvider>
+        <Router />
+      </ChakraProvider>
+    </GlobalState>
     </>
+
   );
 }
 
