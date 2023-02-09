@@ -5,7 +5,7 @@ import {
 } 
   from '@chakra-ui/react'
 import React, { useContext } from 'react'
-//import Header from '../components/Header'
+import Header from '../components/Header'
 import { GlobalContext } from '../context/GlobalContext'
 
 const HomePage = () => {
@@ -14,7 +14,7 @@ const HomePage = () => {
 
   return (
     <>
-      
+      <Header />
       <Box
         w='100%'
         h='100%'
