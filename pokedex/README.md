@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Projeto Pokedex
+![Pokemon](../pokedex/src/assets/logoPokemon.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto Frontend com React: APIs. Todas informações são da API [Poke Api](https://pokeapi.co/ "Poke Api")
 
-## Available Scripts
+## Índice
+- <a href="#Funcionalidades do projeto">Funcionalidades do projeto
+- <a href="#Layout">Layout
+- <a href="#Demonstração">Demonstração
+- <a href="#Como Rodar esse Projeto">Como Rodar esse Projeto
 
-In the project directory, you can run:
+- <a href="#Tecnologias Utilizadas">Tecnologias utilizadas
+- <a href="#Pessoas Autoras">Pessoas Autoras
 
-### `npm start`
+## Funcionalidades do  projeto
+- Gerais
+- [x] 3 páginas: Home, Pokedex e detalhes;
+- Página Home;
+- [x] Lista de Pokemons, contendo 20 Pokemons;
+- [x] Cada Pokemon é representado por um Card;
+- [x] Em cada Card de pokemon tem um botão para adicioná-lo à Pokedex e um outro botão para acessar os detalhes do Pokemon;
+- [x] Header dessa página tem um botão para acessar a página Pokedex;
+- Página Pokedex
+- [x] Renderizar a lista de pokémons adicionados na pokedex;
+- [x] Em cada card de Pokemon tem um botão para removê-lo da Pokedex e um outro botão para acessar os detalhes do Pokemon;
+- [x] Header tem um botão para voltar para a Home;
+- [x] Não é possível adicionar o mesmo Pokemon duas vezes na Pokedex;
+- Página de Detalhes
+- [x] Mostrar os detalhes do Pokemon selecionado, com informações descritas;
+- [x] Header tem um botão para adicionar ou remover da Pokedex e outro para voltar a página home.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Layout
+![Tela 1 Todos os Pokemons - HomePage](../pokedex/src/assets/HomePage.webp)
+![Tela 2 Meus Pokemons - PokedexPage](../pokedex/src/assets/PokedexPage.webp)
+![Tela 3 Detalhes - PokemonDetalhesPage ](../pokedex/src/assets/DetalhesPage.webp)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demonstração 
+[Link demonstração](rafael-machado-pokedex.surge.sh)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Rodar esse Projeto
+```bash
+# Clone este repositório
+$ git clone linkrepo
 
-### `npm run build`
+# Acesse a pasta do projeto no seu terminal
+$ cd pokedex
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#Instale as dependências
+$ npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Execute a aplicação
+$ npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# A aplicação será iniciada na porta 3000, acesse pelo navegador: http://localhost:3000
+```
+## Tecnologias Utilizadas
+1. [React](https://pt-br.reactjs.org/)
+2. [React Router](https://reactrouter.com/en/main)
+3. [Styled-components](https://styled-components.com/)
+4. [React Context](https://reactjs.org/docs/context.html)
+5. [Axios](https://www.npmjs.com/package/react-axios)
 
-### `npm run eject`
+## Pessoas Autoras
+![Rafael M. Machado](../pokedex/src/assets/Foto.jpeg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
