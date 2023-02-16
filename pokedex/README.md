@@ -35,7 +35,7 @@ Projeto Frontend com React: APIs. Todas informações são da API [Poke Api](htt
 ![Tela 3 Detalhes - PokemonDetalhesPage ](../pokedex/src/assets/DetalhesPage.webp)
 
 ## Demonstração 
-[link](rafael-machado-pokedex.surge.sh)
+[link do projeto](https://rafael-machado-pokedex.surge.sh)
 
 
 ## Como Rodar esse Projeto
